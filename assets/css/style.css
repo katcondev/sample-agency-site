@@ -17,6 +17,17 @@ a {
     text-decoration: none;
 }
 
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* header styles */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -32,7 +43,10 @@ header h1 {
 header h1 .seo {
     color: #d9dcd6;
 }
+/* header styles end */
 
+
+/* nav styles*/
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -49,7 +63,9 @@ nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
+/* nav styles */
 
+/* hero styles */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,23 +74,34 @@ nav ul li {
     background-size: cover;
     background-position: center;
 }
+/* hero styles end */
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* main content */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+.services {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.services h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.services img {
+    max-height: 200px;
+}
+
+/* right column of services */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -102,24 +129,9 @@ nav ul li {
     max-width: 150px;
 }
 
-.services {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
 
-.services img {
-    max-height: 200px;
-}
 
-.services h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* footer styles */
 footer {
     padding: 30px;
     clear: both;
@@ -130,3 +142,4 @@ footer {
 footer h2 {
     font-size: 20px;
 }
+/* footer styles end */
